@@ -1,2 +1,7 @@
-# lark_send_patcher
+# lark_sender_patcher
+
 通过猴子补丁的方式，优化了飞书Lark适配器下，机器人发送的消息引用太频繁的问题
+
+现在飞书下所有的机器人回复从引用消息变更为直接发送
+
+插件可能会随着astrbot本体版本更新，涉及到lark_adapter和lark_event重大更新时失效。
