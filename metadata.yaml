@@ -1,5 +1,5 @@
 name: astrbot_plugin_lark_send_patcher # 这是你的插件的唯一识别名。
-desc: 优化Lark平台的回复行为，将所有回复转为发送 # 插件简短描述
+desc: 通过猴子补丁的方式，优化了飞书Lark适配器下，机器人发送的消息引用太频繁的问题。现在飞书下所有的机器人回复从引用消息变更为直接发送。插件可能会随着astrbot本体版本更新，涉及到lark_adapter和lark_event重大更新时失效。 # 插件简短描述
 help: 加载即可。 # 插件的帮助信息
 version: v1.0.0 # 插件版本号。格式：v1.1.1 或者 v1.1
 author: 天各一方 # 作者
